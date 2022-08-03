@@ -1,6 +1,5 @@
 import { Box, Container, Column } from "./styles";
-import { BsFacebook, BsLinkedin, BsWhatsapp, BsGithub } from 'react-icons/bs';
-import { FaInstagram } from 'react-icons/fa';
+import { BsLinkedin, BsWhatsapp, BsGithub } from 'react-icons/bs';
 
 export function BaseBoard() {
     return (
@@ -9,16 +8,6 @@ export function BaseBoard() {
                 <Column>
                     <a href="https://github.com/GabrielMisaelC">
                         <BsGithub size={30} color={'#DCDCDC'} />
-                    </a>
-                </Column>
-                <Column>
-                    <a href="https://www.facebook.com/biel.carvalhosimpson">
-                        <BsFacebook size={30} color={'#DCDCDC'} />
-                    </a>
-                </Column>
-                <Column>
-                    <a href="https://instagram.com/xv_misael?r=nametag">
-                        <FaInstagram size={30} color={'#DCDCDC'} />
                     </a>
                 </Column>
                 <Column>

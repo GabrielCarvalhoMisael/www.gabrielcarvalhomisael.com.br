@@ -10,7 +10,7 @@ export const Center = styled.div`
 
 
   @media screen and (max-width: 900px) {
-    flex-direction: Column;
+    flex-direction: row;
   }
 `;
 export const Column = styled.div`
@@ -30,7 +30,7 @@ export const Column = styled.div`
   @media screen and (max-width: 900px) {
     flex-direction: Column;
     padding-top: 15px;
-    border-bottom: dotted 2px #000;
+    /* border-bottom: dotted 2px #000; */
   }
 
 `;
@@ -46,9 +46,23 @@ export const Right = styled.div`
 `;
 
 export const Ul = styled.ul`
-    /* display: flex;
-    flex: 2; */
-    /* gap: 100; */
     justify-content: 'center';
-    list-style: none;
+    /* list-style: none; */
+    list-style-type: square;
+
+    >li {
+      font-size: 18px;
+      font-family: 'Kanit';
+    }
+    @media screen and (max-width: 900px) {
+      list-style: none;
+      >li {
+        padding-top: 20px;
+    }
+  }
+`;
+
+export const H1 = styled.h1`
+  font-family: 'Roboto';
+  font-size: 22px;
 `;

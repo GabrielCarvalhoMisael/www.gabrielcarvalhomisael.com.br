@@ -84,7 +84,9 @@ export default class AutoPlay extends Component {
                 <text style={{fontFamily: 'Roboto'}}>Carga Horaria: {item.cargaHoraria}</text>
               </Column>
             );
-          })}
+          }
+          )
+          }
         </Slider>
       </Container>
       </div>

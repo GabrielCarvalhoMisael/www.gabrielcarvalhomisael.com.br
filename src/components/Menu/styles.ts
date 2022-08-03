@@ -37,13 +37,14 @@ export const Nav = styled.nav`
       left: 0;
       top: 80px;
       width: 90%;
+      height: 100%;
       background: #FFF;
       z-index: 5;
       >li{
-        border-bottom: 2px solid #000;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 40%;
+        border-bottom: 1px solid #191970;
+        padding-top: 10%;
+        padding-bottom: 2%;
+        /* padding-left: 40%; */
       }
     }
     .Hamburger{

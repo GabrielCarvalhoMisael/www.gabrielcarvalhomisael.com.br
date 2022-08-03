@@ -6,7 +6,7 @@ type ITitulo = {
 }
 export function Titulo(props: ITitulo){
   return(
-    <div>
+    <div style={{textAlign: 'center'}}>
       <A href={props.href}>{props.text}</A>
     </div>
   )
