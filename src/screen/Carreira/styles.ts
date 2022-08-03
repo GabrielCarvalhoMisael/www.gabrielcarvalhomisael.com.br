@@ -10,7 +10,7 @@ export const Center = styled.div`
 
 
   @media screen and (max-width: 900px) {
-    flex-direction: row;
+    flex-direction: Column;
   }
 `;
 export const Column = styled.div`
