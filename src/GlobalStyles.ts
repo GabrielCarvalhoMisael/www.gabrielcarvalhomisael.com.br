@@ -1,5 +1,5 @@
-import { createGlobalStyle } from 'styled-components';
- 
+import { createGlobalStyle } from "styled-components";
+
 const GlobalStyle = createGlobalStyle`
   body {
     margin: 0px;
@@ -14,5 +14,5 @@ const GlobalStyle = createGlobalStyle`
     scroll-behavior: smooth;
   }
 `;
- 
+
 export default GlobalStyle;
